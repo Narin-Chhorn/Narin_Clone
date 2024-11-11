@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.sidebar {
+    background-color: #4b49ac;
+    color: white;
+    padding: 30px 20px;
+    width: 40%;
+    text-align: left;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    margin-bottom: 50px;
+}
+
+.contact-info h2,
+.skills h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ffffff50;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.contact-info p, .skills ul {
+    font-size: 0.9em;
+    margin: 8px 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.main-content {
+    background-color: wheat;
+    padding: 40px;
+    width: 70%;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 5px;
+
+}
+
+.main-content h3 {
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.about-me, .experience, .education, .project, .certification {
+    margin-bottom: 30px;
+    
+}
+
+.about-me h2, .education h2, .experience h2, .project h2, .certification h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-style: initial;
+}
